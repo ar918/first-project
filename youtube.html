@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube.com Clone</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="menu" src="icons/hamburger-menu.svg" alt="menu">
+            <img class="logo" src="icons/youtube-logo.svg" alt="logo">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg" alt="search-button">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="voice-button">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <img class="upload-icon" src="icons/upload.svg" alt="upload-icon">
+            <img class="youtube-apps" src="icons/youtube-apps.svg" alt="yt-apps">
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="notifications">
+                <div class="notifications-count">3</div>
+            </div>
+            <img class="current-user-picture" src="profile-picture/my-channel.jpeg" alt="account-profile">
+        </div>
+    </div>
+
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg" alt="home icon">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg" alt="explore icon">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="subscriptions icon">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg" alt="originals icon">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg" alt="yt music icon">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg" alt="library icon">
+            <div>Library</div>
+        </div>
+    </div>
+
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/chandpur_selfie.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/WhatsApp.jpeg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A day in Chandpur with friends. chandpur trimohona
+                    </p>
+                    <p class="video-author">
+                        Abdur Rahman
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/selfie-on-mountain.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    20:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/sagor.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Climbing the mountain of Sitakunda, Chandranath pahar
+                    </p>
+                    <p class="video-author">
+                        Sagor Hossain
+                    </p>
+                    <p class="video-stats">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/coxs-bazar.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    11:54
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/shakil.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Let's explore The largest sea beach in the world! Cox's Bazar
+                    </p>
+                    <p class="video-author">
+                        Shakil Hasan
+                    </p>
+                    <p class="video-stats">
+                        8.7M views &#183; 2 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sangu-river.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    34:42
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/prince.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        On the way of mountains, Bandorban, Sangu river
+                    </p>
+                    <p class="video-author">
+                        Muhammad The Hitchhiker
+                    </p>
+                    <p class="video-stats">
+                        22M views &#183; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/nilachal.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    15:11
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/fahim.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Areal view of Bandorban, Nilachal parjatan kendra
+                    </p>
+                    <p class="video-author">
+                        Abdul Kuddus Fahim
+                    </p>
+                    <p class="video-stats">
+                        5.3M views &#183; 9 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sitakunda.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    23:47
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/aman-ullah.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A memorable day at Guliakhali sea beach, Youth Community tour 2020
+                    </p>
+                    <p class="video-author">
+                        Aman Ullah
+                    </p>
+                    <p class="video-stats">
+                        17.9M views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/chandpur_selfie.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/WhatsApp.jpeg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A day in Chandpur with friends. chandpur trimohona
+                    </p>
+                    <p class="video-author">
+                        Abdur Rahman
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/selfie-on-mountain.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    20:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/sagor.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Climbing the mountain of Sitakunda, Chandranath pahar
+                    </p>
+                    <p class="video-author">
+                        Sagor Hossain
+                    </p>
+                    <p class="video-stats">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/coxs-bazar.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    11:54
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/shakil.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Let's explore The largest sea beach in the world! Cox's Bazar
+                    </p>
+                    <p class="video-author">
+                        Shakil Hasan
+                    </p>
+                    <p class="video-stats">
+                        8.7M views &#183; 2 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sangu-river.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    34:42
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/prince.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        On the way of mountains, Bandorban, Sangu river
+                    </p>
+                    <p class="video-author">
+                        Muhammad The Hitchhiker
+                    </p>
+                    <p class="video-stats">
+                        22M views &#183; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/nilachal.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    15:11
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/fahim.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Areal view of Bandorban, Nilachal parjatan kendra
+                    </p>
+                    <p class="video-author">
+                        Abdul Kuddus Fahim
+                    </p>
+                    <p class="video-stats">
+                        5.3M views &#183; 9 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sitakunda.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    23:47
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/aman-ullah.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A memorable day at Guliakhali sea beach, Youth Community tour 2020
+                    </p>
+                    <p class="video-author">
+                        Aman Ullah
+                    </p>
+                    <p class="video-stats">
+                        17.9M views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/chandpur_selfie.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/WhatsApp.jpeg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A day in Chandpur with friends. chandpur trimohona
+                    </p>
+                    <p class="video-author">
+                        Abdur Rahman
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/selfie-on-mountain.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    20:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/sagor.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Climbing the mountain of Sitakunda, Chandranath pahar
+                    </p>
+                    <p class="video-author">
+                        Sagor Hossain
+                    </p>
+                    <p class="video-stats">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/coxs-bazar.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    11:54
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/shakil.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Let's explore The largest sea beach in the world! Cox's Bazar
+                    </p>
+                    <p class="video-author">
+                        Shakil Hasan
+                    </p>
+                    <p class="video-stats">
+                        8.7M views &#183; 2 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sangu-river.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    34:42
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/prince.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        On the way of mountains, Bandorban, Sangu river
+                    </p>
+                    <p class="video-author">
+                        Muhammad The Hitchhiker
+                    </p>
+                    <p class="video-stats">
+                        22M views &#183; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/nilachal.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    15:11
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/fahim.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Areal view of Bandorban, Nilachal parjatan kendra
+                    </p>
+                    <p class="video-author">
+                        Abdul Kuddus Fahim
+                    </p>
+                    <p class="video-stats">
+                        5.3M views &#183; 9 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sitakunda.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    23:47
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/aman-ullah.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A memorable day at Guliakhali sea beach, Youth Community tour 2020
+                    </p>
+                    <p class="video-author">
+                        Aman Ullah
+                    </p>
+                    <p class="video-stats">
+                        17.9M views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/chandpur_selfie.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/WhatsApp.jpeg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A day in Chandpur with friends. chandpur trimohona
+                    </p>
+                    <p class="video-author">
+                        Abdur Rahman
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/selfie-on-mountain.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    20:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/sagor.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Climbing the mountain of Sitakunda, Chandranath pahar
+                    </p>
+                    <p class="video-author">
+                        Sagor Hossain
+                    </p>
+                    <p class="video-stats">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/coxs-bazar.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    11:54
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/shakil.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Let's explore The largest sea beach in the world! Cox's Bazar
+                    </p>
+                    <p class="video-author">
+                        Shakil Hasan
+                    </p>
+                    <p class="video-stats">
+                        8.7M views &#183; 2 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sangu-river.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    34:42
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/prince.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        On the way of mountains, Bandorban, Sangu river
+                    </p>
+                    <p class="video-author">
+                        Muhammad The Hitchhiker
+                    </p>
+                    <p class="video-stats">
+                        22M views &#183; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/nilachal.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    15:11
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/fahim.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Areal view of Bandorban, Nilachal parjatan kendra
+                    </p>
+                    <p class="video-author">
+                        Abdul Kuddus Fahim
+                    </p>
+                    <p class="video-stats">
+                        5.3M views &#183; 9 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sitakunda.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    23:47
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/aman-ullah.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A memorable day at Guliakhali sea beach, Youth Community tour 2020
+                    </p>
+                    <p class="video-author">
+                        Aman Ullah
+                    </p>
+                    <p class="video-stats">
+                        17.9M views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/chandpur_selfie.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/WhatsApp.jpeg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A day in Chandpur with friends. chandpur trimohona
+                    </p>
+                    <p class="video-author">
+                        Abdur Rahman
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/selfie-on-mountain.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    20:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/sagor.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Climbing the mountain of Sitakunda, Chandranath pahar
+                    </p>
+                    <p class="video-author">
+                        Sagor Hossain
+                    </p>
+                    <p class="video-stats">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/coxs-bazar.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    11:54
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/shakil.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Let's explore The largest sea beach in the world! Cox's Bazar
+                    </p>
+                    <p class="video-author">
+                        Shakil Hasan
+                    </p>
+                    <p class="video-stats">
+                        8.7M views &#183; 2 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sangu-river.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    34:42
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/prince.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        On the way of mountains, Bandorban, Sangu river
+                    </p>
+                    <p class="video-author">
+                        Muhammad The Hitchhiker
+                    </p>
+                    <p class="video-stats">
+                        22M views &#183; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/nilachal.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    15:11
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/fahim.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Areal view of Bandorban, Nilachal parjatan kendra
+                    </p>
+                    <p class="video-author">
+                        Abdul Kuddus Fahim
+                    </p>
+                    <p class="video-stats">
+                        5.3M views &#183; 9 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/sitakunda.jpg" alt="we were on a boat">
+                <div class="video-time">
+                    23:47
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="eservice24" src="profile-picture/aman-ullah.jpg" alt="channel profile">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A memorable day at Guliakhali sea beach, Youth Community tour 2020
+                    </p>
+                    <p class="video-author">
+                        Aman Ullah
+                    </p>
+                    <p class="video-stats">
+                        17.9M views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
